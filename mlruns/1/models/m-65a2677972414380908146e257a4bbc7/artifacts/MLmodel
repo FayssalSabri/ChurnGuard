@@ -1,0 +1,22 @@
+artifact_path: file:C:/Users/fayss/DesctopLocal/Projects/churnguard-mlops/mlruns/1/models/m-65a2677972414380908146e257a4bbc7/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.7.0
+model_id: m-65a2677972414380908146e257a4bbc7
+model_size_bytes: 3530
+model_uuid: m-65a2677972414380908146e257a4bbc7
+prompts: null
+run_id: 0415b21b08254e29b4d786abe705b9c6
+utc_time_created: '2025-12-05 22:48:58.464492'
