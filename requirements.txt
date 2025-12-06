@@ -1,19 +1,37 @@
+# requirements.txt
+# Version corrigée sans conflits
+
+# Core ML
 mlflow==2.13.1
 scikit-learn==1.4.0
 pandas==2.2.0
 numpy==1.26.4
+joblib==1.3.2
+
+# API
 fastapi==0.110.0
 uvicorn==0.27.1
 pydantic==2.6.0
+
+# Utilities
+loguru==0.7.2
 python-dotenv==1.0.0
 pyyaml==6.0.1
-loguru==0.7.2
-evidently==0.4.19
-prometheus-client==0.20.0
-docker==7.0.0
+requests==2.31.0
+
+# Dashboard
+streamlit==1.31.0
+plotly==5.18.0
+matplotlib==3.8.0
+seaborn==0.13.0
+colorama==0.4.6
+
+# Docker (version compatible avec mlflow et prefect)
+docker==6.1.3  # Version compatible avec mlflow<8 et prefect<7.0
+
+# Prefect (optionnel pour orchestration)
 prefect==2.16.5
-joblib==1.3.2
-seaborn==0.13.2
-matplotlib==3.8.3
-black==24.2.0
+
+# Test
 pytest==8.0.0
+pytest-cov==4.1.0
