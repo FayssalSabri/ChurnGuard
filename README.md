@@ -22,7 +22,7 @@ Data → Preprocessing → Training → MLflow Tracking → FastAPI → Monitori
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/FayssalSabri/churnguard-mlops.git
+git clone https://github.com/FayssalSabri/ChurnGuard.git
 cd churnguard-mlops
 ```
 
